@@ -4,10 +4,10 @@
     box-sizing: border-box;
   }
 
-  /* navbar */
-.navbar-brand a {
-    padding-bottom: 10px;
+.pull-right {
+    margin-right: 15px !important;
 }
+  /* navbar */
 
 .navbar-brand img {
     width: 172px;
@@ -15,5 +15,20 @@
     object-fit: cover;
     position: relative;
     bottom: 7px;
+}
 
+.ms--hamburger-menu {
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.navbar-right {
+    margin-right: 15px !important;
+    line-height: 0;
+}
+
+nav span {
+    font-size: x-large
+     !important;
+     top: 12px !important;
 }
