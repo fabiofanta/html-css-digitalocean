@@ -8,10 +8,19 @@
       margin-right: 30px !important;
   }
 
+  body {
+      background-color: #0248ff !important;
+  }
+
   /* navbar */
+
+nav {
+    border: none !important;
+}
 .container-fluid {
-    background-color: white;
+    background-color: #0248ff;
     padding: 10px 0;
+    border: none;
 }
 
 #ms--navbar-header {
@@ -34,6 +43,8 @@ nav span {
     font-size: x-large
      !important;
      top: 12px !important;
+     color: gray;
+     opacity: 0.5;
 }
 
 #ms--menu ul li a {
@@ -56,13 +67,16 @@ nav span {
     #ms--navbar-header {
         width: 100% !important;
     }
-
 }
 
 @media all and (min-width:1050px) and (max-width:1200px) {
     #ms--hamburger-menu {
         display: none;
     }
+}
 
-
+@media all and (min-width:1050px) {
+    .container-fluid {
+        background-color: white !important;
+    }
 }
