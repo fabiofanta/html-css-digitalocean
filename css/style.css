@@ -4,22 +4,25 @@
     box-sizing: border-box;
   }
 
-.pull-right {
-    margin-right: 15px !important;
-}
-  /* navbar */
+  .pull-right {
+      margin-right: 30px !important;
+  }
 
+  /* navbar */
+.container-fluid {
+    background-color: white;
+    padding: 10px 0;
+}
+
+#ms--navbar-header {
+    padding-right: 25px;
+}
 .navbar-brand img {
     width: 172px;
     height: 29px;
     object-fit: cover;
     position: relative;
     bottom: 7px;
-}
-
-.ms--hamburger-menu {
-    padding-top: 50px;
-    display: inline-block;
 }
 
 .navbar-right {
@@ -31,4 +34,35 @@ nav span {
     font-size: x-large
      !important;
      top: 12px !important;
+}
+
+#ms--menu ul li a {
+    color: black !important;
+    font-weight: bold;
+}
+
+#ms--menu button {
+    color: #0049ff;
+    font-weight: bold;
+    border: 1px solid #0049ff;
+}
+
+
+@media all and (min-width:768px) and (max-width:1049px) {
+    #ms--menu {
+        display: none;
+    }
+
+    #ms--navbar-header {
+        width: 100% !important;
+    }
+
+}
+
+@media all and (min-width:1050px) and (max-width:1200px) {
+    #ms--hamburger-menu {
+        display: none;
+    }
+
+
 }
