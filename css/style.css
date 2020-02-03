@@ -88,6 +88,28 @@ form {
 
 .ms--lb-header {
     font-size: 30px;
+    color: black;
+}
+
+form label {
+    padding-top: 15px;
+    color: #42547a;
+}
+
+form input {
+    padding: 23px !important;
+    font-size: 16px !important;
+    color: #42547a !important;
+
+}
+
+.ms--bt-padding {
+
+}
+
+.ms--ts {
+    padding-top: 25px;
+    font-size: 13px;
 }
 
 
