@@ -11,25 +11,17 @@
 .ms--bg-blue {
      background-color: #0248ff !important;
      color: white;
-     text-align: center;
-     padding-top: 60px;
-     padding-bottom: 60px;
      background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
 
 .ms--bg-white {
     color: black;
     background-color: white;
-     text-align: center;
-     padding-top: 60px;
-     padding-bottom: 60px;
 }
 
 .ms--bg-gray {
     background-color:#f3f5f9;
-     text-align: center;
-     padding-top: 60px;
-     padding-bottom: 60px;
+
 }
 
 .ms--bg-footer {
@@ -37,6 +29,12 @@
     color: white;
 }
 
+section {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
 section h1 {
     font-size: 36px;
     line-height: 1.25;
@@ -229,9 +227,32 @@ form button {
  }
 
 /* ms--data-center */
-.ms--data-center .container-fluid {
-    background-color: #102757;
+.ms--data-center {
+    background-image: url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-color: #031b4e;
+    line-height: 3;
 }
+
+.ms--data-center h1 {
+    padding-bottom: 60px;
+}
+
+.ms--data-center .col-xs-2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ms--data-center .col-xs-6 {
+    color: lightgray;
+    opacity: 0.5;
+}
+
+.ms--data-center a {
+    color:#00d5c1;
+    font-weight: bold;
+}
+
+
 
 /* ms--feedback */
 
@@ -257,8 +278,6 @@ form button {
     height: 80px;
     vertical-align: middle;
 }
-
-
 
 @media all and (min-width:768px) and (max-width:1044px) {
     #ms--menu {
