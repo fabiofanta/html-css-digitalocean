@@ -82,7 +82,7 @@ form {
     background-color: white;
     border-radius: 5px;
     color: black;
-    padding: 40px 30px;
+    padding: 30px 40px 10px;
     text-align: center;
 }
 
@@ -93,28 +93,53 @@ form {
 
 form label {
     padding-top: 15px;
-    color: #42547a;
+    color: #5b6987;
 }
 
 form input {
     padding: 23px !important;
     font-size: 16px !important;
-    color: #42547a !important;
+    color: black !important;
+    border: 1px solid #f1f1f1 !important;
+}
 
+.form-group input::placeholder {
+    color: #4254a1 !important;
+}
+
+form button {
+    padding: 12.575px !important;
+    font-size: 16px !important;
+}
+
+#ms--create {
+    width: 100%;
+    font-weight: bold;
+    background-color: #0069ff;
+    color: white;
+}
+
+.ms--bts button {
+    background-color: #f2f8ff;
+    border: 1px solid #c2dbff;
+    font-weight: bold;
+    width: 100%;
 }
 
 .ms--bt-padding {
+    padding-right: 10px;
+}
 
+.ms--divisor {
+    border-bottom: 1px solid black;
+    padding-top: 25px;
 }
 
 .ms--ts {
     padding-top: 25px;
     font-size: 13px;
+    font-weight: normal;
 }
-
-
-
-
 
 @media all and (min-width:768px) and (max-width:1049px) {
     #ms--menu {

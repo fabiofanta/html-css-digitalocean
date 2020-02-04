@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/931ad4d9a2.js" crossorigin="anonymous"></script>
         <title>DigitalOcean – The developer cloud</title>
     </head>
     <body>
@@ -55,18 +56,24 @@
                             <div class="form-group">
                               <input type="password"class="form-control" id="exampleInputPassword1" placeholder="Create a password">
                             </div>
-                            <button type="button" class="btn btn-default">Create your account</button>
-                            <div class="form-group">
-                                <label for="">or sign up with</label>
+                            <button id="ms--create" type="button" class="btn btn-default">Create your account</button>
+                            <div class="form-group row row-no-gutters">
+                                <label class="col-xs-3 ms--divisor" for=""></label>
+                                <label class="col-xs-6 ms--signup-claim" for="">or sign up with</label>
+                                <label class="col-xs-3 ms--divisor" for=""></label>
                             </div>
                             <div class="ms--bts">
-                                <div class="row row-no-gutters">
-                                    <button class="ms--bt-padding col-xs-6 btn btn-default"type="button" name="button">   <span></span> Google</button>
-                                    <button class="col-xs-6 btn btn-default"type="button" name="button"><span></span>GitHub</button>
+                                <div class="row">
+                                    <div class="ms--signup-btn col-xs-6">
+                                        <button class="btn btn-default"type="button" name="button"><span class="pull-left"><i class="fab fa-google"></i></span> Google</button>
+                                    </div>
+                                    <div class="ms--signup-btn col-xs-6">
+                                        <button class="btn btn-default"type="button" name="button"><span class="pull-left"><i class="fab fa-github"></i></span>GitHub</button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="ms--ts" for="">By signing up you agree to the <a href="#">Terms of Service</a></label>
+                                <label class="ms--ts" for="">By signing up you agree to the <a style="text-decoration:underline" href="#">Terms of Service</a>.</label>
                             </div>
                         </form>
                     </div>
