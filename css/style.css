@@ -180,6 +180,40 @@ form button {
 .ms--designed-for-dev {
     text-align: center;
 }
+
+/* ms--business-facts */
+
+.ms--business-facts {
+    text-align: center;
+}
+
+/* ms--data-center */
+.ms--data-center .container-fluid {
+    background-color: #102757;
+}
+
+/* ms--feedback */
+.ms--feedback {
+    text-align: center;
+}
+
+/* cta-low */
+ .cta-low {
+     text-align: center;
+ }
+
+/* footer */
+
+footer {
+    background-color: #010e28;
+}
+
+/* ms--lower-footer */
+
+.ms--lower-footer {
+    background-color: #010e28;
+}
+
 @media all and (min-width:768px) and (max-width:1049px) {
     #ms--menu {
         display: none;
