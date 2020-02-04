@@ -7,7 +7,7 @@
   .pull-right {
       margin-right: 30px !important;
   }
-
+/* da cambiare */
   body {
       background-color: #0248ff !important;
   }
@@ -15,6 +15,11 @@
 .ms--bg-blue {
      background-color: #0248ff !important;
      color: white;
+}
+
+.ms--bg-white {
+    color: black;
+    background-color: white;
 }
   /* navbar */
 
@@ -64,6 +69,7 @@ nav span {
 /* ms--jumbotron */
 .ms--jumbotron {
     padding-top: 150px;
+    padding-bottom: 70px;
 }
 
 .ms--jumbotron h1 {
@@ -141,6 +147,32 @@ form button {
     font-weight: normal;
 }
 
+/* ms--businesses */
+
+.ms--businesses {
+    background-color: #f3f5f9;
+    text-align: center;
+}
+
+/*ms--deploy-and-scale*/
+
+.ms--deploy-and-scale {
+    text-align: center;
+}
+
+.ms--deploy-and-scale ul {
+    border-left: 2px solid lightgray;
+}
+
+.ms-cards {
+    text-align: left;
+}
+
+#ms--blueline {
+    border-left: 2px solid #0069ff;
+}
+
+
 @media all and (min-width:768px) and (max-width:1049px) {
     #ms--menu {
         display: none;
@@ -160,5 +192,12 @@ form button {
 @media all and (min-width:1050px) {
     .container-fluid {
         background-color: white !important;
+    }
+}
+
+@media all and (min-width:768px) {
+    .ms--vertical-navbar ul li {
+        text-align: initial;
+        float: none;
     }
 }
