@@ -15,15 +15,22 @@
 .ms--bg-blue {
      background-color: #0248ff !important;
      color: white;
+     text-align: center;
 }
 
 .ms--bg-white {
     color: black;
     background-color: white;
+     text-align: center;
 }
 
 .ms--bg-gray {
     background-color:#f3f5f9;
+     text-align: center;
+}
+
+.ms--bg-footer {
+    background-color: #010e28;
 }
   /* navbar */
 
@@ -93,7 +100,6 @@ form {
     border-radius: 5px;
     color: black;
     padding: 30px 40px 10px;
-    text-align: center;
 }
 
 .ms--lb-header {
@@ -153,15 +159,9 @@ form button {
 
 /* ms--businesses */
 
-.ms--businesses {
-    text-align: center;
-}
 
 /*ms--deploy-and-scale*/
 
-.ms--deploy-and-scale {
-    text-align: center;
-}
 
 .ms--deploy-and-scale ul {
     border-left: 2px solid lightgray;
@@ -177,15 +177,9 @@ form button {
 
 /* ms--designed-for-dev */
 
-.ms--designed-for-dev {
-    text-align: center;
-}
 
 /* ms--business-facts */
 
-.ms--business-facts {
-    text-align: center;
-}
 
 /* ms--data-center */
 .ms--data-center .container-fluid {
@@ -193,20 +187,13 @@ form button {
 }
 
 /* ms--feedback */
-.ms--feedback {
-    text-align: center;
-}
+
 
 /* cta-low */
- .cta-low {
-     text-align: center;
- }
+
 
 /* footer */
 
-footer {
-    background-color: #010e28;
-}
 
 /* ms--lower-footer */
 
