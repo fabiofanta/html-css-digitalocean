@@ -36,6 +36,25 @@
     background-color: #010e28;
     color: white;
 }
+
+section h1 {
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: bold;
+}
+
+section p:first-of-type {
+    font-size: 20px;
+    line-height: 1.25;
+    padding-top: 16px;
+    padding-bottom: 60px;
+}
+
+.ms--link-caret {
+    font-size: 20px;
+    color: #0049ff;
+    font-weight: bold;
+}
   /* navbar */
 
 nav {
@@ -165,6 +184,13 @@ form button {
 }
 
 /* ms--businesses */
+
+#ms--bs-claim {
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #939eb5;
+}
 .ms--businesses img {
     display: block;
     height: 100px;
@@ -189,9 +215,18 @@ form button {
 
 /* ms--designed-for-dev */
 
+.ms--designed-for-dev p:last-of-type {
+    padding-top: 50px;
+    font-size: 20px;
+    line-height: 1.7;
+    padding-bottom: 25px;
+    color: #939eb5;
+}
 
 /* ms--business-facts */
-
+ .ms--business-facts h1 {
+     padding-bottom: 60px;
+ }
 
 /* ms--data-center */
 .ms--data-center .container-fluid {
@@ -208,9 +243,22 @@ form button {
 
 
 /* ms--lower-footer */
+
+.ms--lower-footer {
+    border-top: 1px solid #343e53;
+    padding-top: 32px;
+}
 .ms--lower-footer p {
     display: inline-block;
 }
+
+.ms--lower-footer  img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+
 
 @media all and (min-width:768px) and (max-width:1044px) {
     #ms--menu {
