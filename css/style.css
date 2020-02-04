@@ -4,12 +4,8 @@
     box-sizing: border-box;
   }
 
-  .pull-right {
+  #ms--hamburger-menu .pull-right {
       margin-right: 30px !important;
-  }
-/* da cambiare */
-  body {
-      background-color: #0248ff !important;
   }
 
 .ms--bg-blue {
@@ -31,6 +27,7 @@
 
 .ms--bg-footer {
     background-color: #010e28;
+    color: white;
 }
   /* navbar */
 
@@ -196,9 +193,8 @@ form button {
 
 
 /* ms--lower-footer */
-
-.ms--lower-footer {
-    background-color: #010e28;
+.ms--lower-footer p {
+    display: inline-block;
 }
 
 @media all and (min-width:768px) and (max-width:1049px) {
