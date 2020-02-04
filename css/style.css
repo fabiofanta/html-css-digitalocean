@@ -12,17 +12,23 @@
      background-color: #0248ff !important;
      color: white;
      text-align: center;
+     padding-top: 60px;
+     padding-bottom: 60px;
 }
 
 .ms--bg-white {
     color: black;
     background-color: white;
      text-align: center;
+     padding-top: 60px;
+     padding-bottom: 60px;
 }
 
 .ms--bg-gray {
     background-color:#f3f5f9;
      text-align: center;
+     padding-top: 60px;
+     padding-bottom: 60px;
 }
 
 .ms--bg-footer {
