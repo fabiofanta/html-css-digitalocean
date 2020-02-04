@@ -21,6 +21,10 @@
     color: black;
     background-color: white;
 }
+
+.ms--bg-gray {
+    background-color:#f3f5f9;
+}
   /* navbar */
 
 nav {
@@ -150,7 +154,6 @@ form button {
 /* ms--businesses */
 
 .ms--businesses {
-    background-color: #f3f5f9;
     text-align: center;
 }
 
@@ -172,7 +175,11 @@ form button {
     border-left: 2px solid #0069ff;
 }
 
+/* ms--designed-for-dev */
 
+.ms--designed-for-dev {
+    text-align: center;
+}
 @media all and (min-width:768px) and (max-width:1049px) {
     #ms--menu {
         display: none;
