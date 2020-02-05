@@ -4,6 +4,7 @@
     box-sizing: border-box;
   }
 
+
   #ms--hamburger-menu .pull-right {
       margin-right: 30px !important;
   }
@@ -49,7 +50,7 @@ section p:first-of-type {
 }
 
 .ms--link-caret {
-    font-size: 20px;
+    font-size: 16px;
     color: #0049ff;
     font-weight: bold;
 }
@@ -253,32 +254,56 @@ form button {
 } */
 
 /* ms--feedback */
-blockquote {
-    margin-top: 20px !important;
-}
 
+.ms--feedback p {
+    padding-bottom: 10px !important;
+    color: rgba(3,27,78,.7);
+    font-size: 22px !important;
+}
 .ms--blockquote {
     font-size: 30px;
     position: relative;
+    text-align: center;
+    background-color: white;
+    margin:0 35px;
 }
 
-.ms--blockquote-box img {
+.ms--blockquote {
+    padding-bottom: 40px;
+    position: relative;
+    margin: 0 70px;
+}
+
+.ms--blockquote img {
     padding-top: 30px;
+    padding-bottom: 20px;
     width: 175px;
 }
 
+.ms--blockquote p {
+    padding: 0 100px;
+    line-height: 1.5 !important;
+}
+
+#ms--footer {
+    font-size: 14px !important;
+    font-weight: bold;
+    color:gray;
+}
 #ms--caret-right {
     position: absolute;
     top: 50%;
     left: 100%;
-    margin-left: 20px;
+    transform: translateY(-50%);
+    margin-left: 40px;
 }
 
 #ms--caret-left {
     position: absolute;
-    top: 51%;
+    top: 50%;
     right:100%;
-    margin-right: 20px;
+    transform: translateY(-50%);
+    margin-right: 40px;
 }
 
 
