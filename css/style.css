@@ -40,14 +40,18 @@ section {
     padding-bottom: 60px;
 
 }
-section h1 {
+
+h1 {
     font-size: 36px;
     line-height: 1.25;
     font-weight: bold;
+}
+
+.ms--header-style h1 {
     color: #031b4e;
 }
 
-section p:first-of-type {
+.ms--header-style p {
     font-size: 20px;
     line-height: 1.25;
     padding-top: 16px;
@@ -218,8 +222,13 @@ form button {
 
 /* ms--designed-for-dev */
 
+.ms--designed-image {
+    position: relative;
+}
 .ms--designed-for-dev img {
     border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #ms--section-footer {
@@ -274,7 +283,6 @@ form button {
     font-size: 22px !important;
 }
 .ms--blockquote {
-    font-size: 30px;
     position: relative;
     background-color: white;
     padding-bottom: 40px;
@@ -296,20 +304,23 @@ form button {
     font-weight: bold;
     color:gray;
 }
+
 #ms--caret-right {
+    left: 100%;
     position: absolute;
     top: 50%;
-    left: 100%;
-    transform: translateY(-50%);
     margin-left: 40px;
+    font-size: 30px;
+    transform: translateY(-50%);
 }
 
 #ms--caret-left {
+    right:100%;
     position: absolute;
     top: 50%;
-    right:100%;
-    transform: translateY(-50%);
     margin-right: 40px;
+    font-size: 30px;
+    transform: translateY(-50%);
 }
 
 .ms--bulletpoint {
