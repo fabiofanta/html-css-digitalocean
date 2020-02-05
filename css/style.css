@@ -199,16 +199,12 @@ form button {
 /*ms--deploy-and-scale*/
 
 
-.ms--deploy-and-scale ul {
-    border-left: 2px solid lightgray;
+.ms--deploy-and-scale ul li {
+    border-bottom: 2px solid lightgray;
 }
 
 .ms-cards {
     text-align: left;
-}
-
-#ms--blueline {
-    border-left: 2px solid #0069ff;
 }
 
 /* ms--designed-for-dev */
@@ -252,13 +248,49 @@ form button {
     font-weight: bold;
 }
 
-
+/* .ms--data-center div[href*="col-xs"] {
+    border-bottom: 1px solid gray !important;
+} */
 
 /* ms--feedback */
+blockquote {
+    margin-top: 20px !important;
+}
+
+.ms--blockquote {
+    font-size: 30px;
+    position: relative;
+}
+
+.ms--blockquote-box img {
+    padding-top: 30px;
+    width: 175px;
+}
+
+#ms--caret-right {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-left: 20px;
+}
+
+#ms--caret-left {
+    position: absolute;
+    top: 51%;
+    right:100%;
+    margin-right: 20px;
+}
 
 
 /* cta-low */
-
+.cta-low button{
+    color: #0049ff;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
 
 /* footer */
 
@@ -300,5 +332,11 @@ form button {
     .ms--vertical-navbar ul li {
         text-align: initial;
         float: none;
+        border-bottom: 0;
     }
+
+    .ms--vertical-navbar ul {
+        border-left: 2px solid lightgray;
+    }
+
 }
