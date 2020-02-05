@@ -30,6 +30,10 @@
     color: white;
 }
 
+.ms--block {
+    margin: 0 150px;
+}
+
 section {
     text-align: center;
     padding-top: 60px;
@@ -40,6 +44,7 @@ section h1 {
     font-size: 36px;
     line-height: 1.25;
     font-weight: bold;
+    color: #031b4e;
 }
 
 section p:first-of-type {
@@ -47,6 +52,9 @@ section p:first-of-type {
     line-height: 1.25;
     padding-top: 16px;
     padding-bottom: 60px;
+    color: #031b4e;
+    opacity: 0.7;
+    padding: 0 70px 64px;
 }
 
 .ms--link-caret {
@@ -210,12 +218,17 @@ form button {
 
 /* ms--designed-for-dev */
 
-.ms--designed-for-dev p:last-of-type {
-    padding-top: 50px;
-    font-size: 20px;
+.ms--designed-for-dev img {
+    border-radius: 5px;
+}
+
+#ms--section-footer {
+    padding: 30px 80px 5px;
+    font-size: 16px;
     line-height: 1.7;
-    padding-bottom: 25px;
-    color: #939eb5;
+    margin: 0;
+    color: #031b4e;
+    opacity: 0.7;
 }
 
 /* ms--business-facts */
@@ -263,15 +276,8 @@ form button {
 .ms--blockquote {
     font-size: 30px;
     position: relative;
-    text-align: center;
     background-color: white;
-    margin:0 35px;
-}
-
-.ms--blockquote {
     padding-bottom: 40px;
-    position: relative;
-    margin: 0 70px;
 }
 
 .ms--blockquote img {
@@ -306,6 +312,23 @@ form button {
     margin-right: 40px;
 }
 
+.ms--bulletpoint {
+    margin-top: 20px;
+}
+
+.ms--bulletpoint li {
+    border: 2px solid #0049ff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ms--checked {
+    background-color: #0049ff;
+}
 
 /* cta-low */
 .cta-low button{
