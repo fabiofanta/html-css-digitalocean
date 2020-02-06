@@ -31,7 +31,7 @@
 }
 
 .ms--block {
-    margin: 0 150px;
+    margin: 0 50px;
 }
 
 section {
@@ -350,7 +350,7 @@ form button {
 }
 
 .ms--blockquote p {
-    padding: 0 100px;
+    padding: 0 30px;
     line-height: 1.5 !important;
 }
 
@@ -364,7 +364,7 @@ form button {
     left: 100%;
     position: absolute;
     top: 50%;
-    margin-left: 40px;
+    margin-left: 20px;
     font-size: 30px;
     transform: translateY(-50%);
 }
@@ -373,7 +373,7 @@ form button {
     right:100%;
     position: absolute;
     top: 50%;
-    margin-right: 40px;
+    margin-right: 20px;
     font-size: 30px;
     transform: translateY(-50%);
 }
@@ -401,13 +401,19 @@ form button {
 .cta-low h1 {
     font-weight: bold;
 }
-.cta-low button{
+.cta-low button {
     color: #0049ff;
     font-weight: bold;
     font-size: 17px;
-    padding: 10px 35px;
+    padding: 11px 35px;
     border-radius: 5px;
     margin-top: 15px;
+    background-color: white;
+    border: 0;
+}
+
+.cta-low button:hover{
+    opacity: 0.8;
 }
 
 /* footer */
