@@ -9,6 +9,10 @@
       margin-right: 30px !important;
   }
 
+   #ms--hamburger-menu span:hover {
+       color: #0049ff !important;
+   }
+
 .ms--bg-blue {
      background-color: #0248ff !important;
      color: white;
